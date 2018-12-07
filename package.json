@@ -25,11 +25,5 @@
     "react-hichestan-datetimepicker": "^0.2.5",
     "jss-rtl": "^0.2.3",
     "@material-ui/core": "^1.4.0"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  }
 }
