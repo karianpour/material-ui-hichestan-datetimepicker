@@ -1,6 +1,23 @@
 {
   "name": "material-ui-hichestan-datetimepicker",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "description": "A serie of react material-ui components to manipulate persian (jalali) date.",
+  "author": "Hichestan",
+  "copyright.owner": "Hichestan Corp.",
+  "license": "MIT",
+  "keywords": [
+    "Material-ui",
+    "Jalali",
+    "Persian",
+    "Datepicker",
+    "DateField",
+    "DateInput"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/karianpour/material-ui-hichestan-datetimepicker"
+  },
+
   "main": "dist/index.js",
   "module": "dist/index.js",
   "files": [
