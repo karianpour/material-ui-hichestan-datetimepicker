@@ -5,7 +5,7 @@ which allows the user to type or select the date from the picker.
 
 The component is compatible with react 16.
 
-This component is material-ui/core 1.4 compatible, if you need it for newer version contact me.
+This component is material-ui/core 1.4 compatible, if you need it for newer version see the instruction below or take look at the [example.js](https://github.com/karianpour/material-ui-hichestan-datetimepicker/blob/master/src/Example.js) file.
 
 This component is only a material-ui wrapper around [react-hichestan-datetimepicker](https://github.com/karianpour/react-hichestan-datetimepicker). For features check that component's page.
 
@@ -17,12 +17,34 @@ Here you can experience a live [demo](https://karianpour.github.io/material-ui-h
 
 ## Installation
 
-Use `npm i material-ui-hichestan-datetimepicker` in order to install the module.
+Use `npm i material-ui-hichestan-datetimepicker` in order to install the module, but you do not neet it for material version 3.
 
 
 ## Usage
+For material version 1, use version 0 of this repository on npm.
 
+For material version 3 :
+```
+npm i react-hichestan-datetimepicker
+```
+and use the component as follow in your code:
+```
+          <TextField
+            id="standard-name"
+            label="ورودی تاریخ با پاپ‌آپ"
+            onChange={this.handleChange('value1')}
+            value={this.state.value1}
+            style={{width: '100%'}}
+            InputProps={{
+              inputComponent: DateInput,
+              inputProps: {},
+            }}
+          />
 
+```
+Instead of `DateInput` you can also use `DateInputSimple`, `DateTimeInput`, `DateTimeInputSimple`
+
+You may pass some props to the `DataInput` via `inputProps` object.
 
 
 ### Contribution

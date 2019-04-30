@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { JalaliField, JalaliTimeField } from './lib';
 import TextField from '@material-ui/core/TextField';
+import {DateInput, DateInputSimple, DateTimeInput, DateTimeInputSimple} from 'react-hichestan-datetimepicker';
 
 import { create } from 'jss';
 import rtl from 'jss-rtl';
@@ -49,35 +49,45 @@ class Example extends Component {
             style={{width: '100%'}}
           />
           <br/>
-          <JalaliField
+          <TextField
             id="standard-name"
             label="ورودی تاریخ با پاپ‌آپ"
-            value={this.state.value1}
             onChange={this.handleChange('value1')}
-            margin="normal"
+            value={this.state.value1}
             style={{width: '100%'}}
+            InputProps={{
+              inputComponent: DateInput,
+              inputProps: {},
+            }}
           />
           <br/>
-          <JalaliField
+          <TextField
             id="standard-name"
             label="ورودی تاریخ بدون پاپ‌آپ"
-            noDialog
             value={this.state.value1}
             onChange={this.handleChange('value1')}
             margin="normal"
             style={{width: '100%'}}
+            InputProps={{
+              inputComponent: DateInputSimple,
+              inputProps: {},
+            }}
           />
           <br/>
-          <JalaliTimeField
+          <TextField
             id="standard-name"
             label="ورودی زمان با پاپ‌آپ"
             value={this.state.value1}
             onChange={this.handleChange('value1')}
             margin="normal"
             style={{width: '100%'}}
+            InputProps={{
+              inputComponent: DateTimeInput,
+              inputProps: {},
+            }}
           />
           <br/>
-          <JalaliTimeField
+          <TextField
             id="standard-name"
             label="ورودی زمان بدون پاپ‌آپ"
             noDialog
@@ -85,6 +95,10 @@ class Example extends Component {
             onChange={this.handleChange('value1')}
             margin="normal"
             style={{width: '100%'}}
+            InputProps={{
+              inputComponent: DateTimeInputSimple,
+              inputProps: {},
+            }}
           />
         </form>
           <br/>
