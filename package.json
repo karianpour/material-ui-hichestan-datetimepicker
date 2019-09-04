@@ -1,6 +1,6 @@
 {
   "name": "material-ui-hichestan-datetimepicker",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "A serie of react material-ui components to manipulate persian (jalali) date.",
   "author": "Hichestan",
   "copyright.owner": "Hichestan Corp.",
@@ -30,19 +30,35 @@
     "build": "rimraf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.3",
-    "babel-preset-react": "^6.24.1",
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
     "prop-types": "^15.7.2",
-    "react": "^16.8.2",
-    "react-dom": "^16.8.2",
-    "react-scripts": "^1.1.5",
-    "rimraf": "^2.6.3"
-  },
-  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-scripts": "^3.1.1",
+    "rimraf": "^2.7.1",
     "@material-ui/core": "^3.9.2",
     "react-jss": "^8.6.1",
     "jss-rtl": "^0.2.3",
-    "react-hichestan-datetimepicker": "^0.2.11"
+    "react-hichestan-datetimepicker": "^2.0.2"
+  },
+  "pearDependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "@material-ui/core": "^3.9.2",
+    "react-hichestan-datetimepicker": "^2.0.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

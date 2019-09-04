@@ -1,6 +1,15 @@
 {
-  "main.css": "static/css/main.f789602c.css",
-  "main.css.map": "static/css/main.f789602c.css.map",
-  "main.js": "static/js/main.58125720.js",
-  "main.js.map": "static/js/main.58125720.js.map"
+  "files": {
+    "main.js": "/material-ui-hichestan-datetimepicker/static/js/main.2697d284.chunk.js",
+    "main.js.map": "/material-ui-hichestan-datetimepicker/static/js/main.2697d284.chunk.js.map",
+    "runtime~main.js": "/material-ui-hichestan-datetimepicker/static/js/runtime~main.32ee2dc0.js",
+    "runtime~main.js.map": "/material-ui-hichestan-datetimepicker/static/js/runtime~main.32ee2dc0.js.map",
+    "static/css/2.6d0a649f.chunk.css": "/material-ui-hichestan-datetimepicker/static/css/2.6d0a649f.chunk.css",
+    "static/js/2.cf15dc4a.chunk.js": "/material-ui-hichestan-datetimepicker/static/js/2.cf15dc4a.chunk.js",
+    "static/js/2.cf15dc4a.chunk.js.map": "/material-ui-hichestan-datetimepicker/static/js/2.cf15dc4a.chunk.js.map",
+    "index.html": "/material-ui-hichestan-datetimepicker/index.html",
+    "precache-manifest.42292376ce5a80524fa07631589cd402.js": "/material-ui-hichestan-datetimepicker/precache-manifest.42292376ce5a80524fa07631589cd402.js",
+    "service-worker.js": "/material-ui-hichestan-datetimepicker/service-worker.js",
+    "static/css/2.6d0a649f.chunk.css.map": "/material-ui-hichestan-datetimepicker/static/css/2.6d0a649f.chunk.css.map"
+  }
 }
